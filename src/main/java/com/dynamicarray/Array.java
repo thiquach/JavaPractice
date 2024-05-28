@@ -46,5 +46,3 @@ public class Array {
         return -1;
     }
 }
-
-

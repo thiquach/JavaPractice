@@ -16,5 +16,13 @@ public class Main {
         integerList.addElement(33);
         integerList.printElements();
         System.out.println(integerList.getElement(1) + " at index 1");
+
+        System.out.println("LinkedList examples");
+        LinkedListExamples linkedList = new LinkedListExamples<>();
+        linkedList.addLastNode(10);
+        linkedList.addLastNode(20);
+        linkedList.addLastNode(30);
+        linkedList.addFirstNode(5);
+        linkedList.printLinkedList();
     }
 }
